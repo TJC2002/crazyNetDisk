@@ -1,0 +1,20 @@
+server:
+  port: 11200
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server:
+          addr: localhost:8848
+  application:
+    name: systemApi
+  datasource:
+    driver-class-name:
+    url: jdbc:mysql://175.178.33.3:3306/crazyNetDisk?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+crazy:
+  netDisk:
+    config:
+      sysAdmin-userId: crazypang
