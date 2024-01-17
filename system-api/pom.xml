@@ -12,7 +12,7 @@
     <name>system-api Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <!--mybatis-springboot starter-->
+        <!--mybatis & mysql-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -21,8 +21,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-            <version>5.1.38</version>
+            <version>8.0.33</version>
         </dependency>
         <!-- SpringCloud Alibaba Nacos -->
         <dependency>

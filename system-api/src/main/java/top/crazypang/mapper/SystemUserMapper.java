@@ -4,6 +4,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import top.crazypang.model.SystemUser;
 
+import java.util.List;
+
 /**
  * @description:
  * @author: crazyPang
@@ -11,5 +13,5 @@ import top.crazypang.model.SystemUser;
 **/
 @Mapper
 public interface SystemUserMapper {
-    public SystemUser selectSystemUser(@Param("userId") String userId);
+    public List<SystemUser> selectSystemUser(@Param("userId") String userId);
 }
