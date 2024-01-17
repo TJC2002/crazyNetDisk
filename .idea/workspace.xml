@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3d6587-125e-471e-93cd-46877c1c4ea6" name="Changes" comment="搭建mybatis框架">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system-api/src/test/java/top/crazypang/mapperTest/SystemUserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system-api/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system-api/src/main/java/top/crazypang/web/controller/SystemUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/src/main/java/top/crazypang/web/controller/SystemUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +28,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\15119859158\repository2" />
+        <option name="mavenHome" value="E:\15119859158\maven" />
+        <option name="userSettingsFile" value="E:\15119859158\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2b2gyEf5fBXJSLG1DxVKSUGcLKD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,16 +58,19 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SystemApplicationApi.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/development/javaProject/crazyNetdisk/system-api/src/test/resources",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/15119859158/netDisk/crazyNetDisk",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "8acdbc80398ebb09d9382174150ec76e",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,6 +110,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -111,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705418839759</updated>
       <workItem from="1705418840900" duration="4221000" />
+      <workItem from="1705454940957" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="搭建mybatis框架">
       <option name="closed" value="true" />
