@@ -14,6 +14,18 @@ spring:
   config:
     import:
       - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+  mail:
+    host: smtp.163.com
+    port:
+    username: 15119859158@163.com
+    #邮箱授权码
+    password: OLLMOEPUCXOXPLJR
+    protocol: smtp
+    default-encoding: UTF-8
+
+
+
+
 
 
   application:
