@@ -1,0 +1,42 @@
+server:
+  port: 11300
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 175.178.33.3:8848
+        namespace: c4095cdf-b3cf-48eb-9706-d6335699b584
+      config:
+        server-addr: 175.178.33.3:8848
+        group: DEFAULT_GROUP
+        file-extension: yml
+  config:
+    import:
+      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+  mail:
+    host: smtp.163.com
+    port:
+    username: 15119859158@163.com
+    #邮箱授权码
+    password: OLLMOEPUCXOXPLJR
+    protocol: smtp
+    default-encoding: UTF-8
+
+  application:
+    name: email-api
+  profiles:
+    active: development
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://175.178.33.3:3306/crazyNetDisk?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 3236588wwwWWW!
+
+
+crazy:
+  netDisk:
+    config:
+      sysAdmin-userId: crazypang
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
