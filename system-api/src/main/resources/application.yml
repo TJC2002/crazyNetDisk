@@ -12,9 +12,13 @@ spring:
   application:
     name: systemApi
   datasource:
-    driver-class-name:
-    url: jdbc:mysql://175.178.33.3:3306/crazyNetDisk?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://175.178.33.3:3306/crazyNetDisk?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 3236588wwwWWW!
 crazy:
   netDisk:
     config:
       sysAdmin-userId: crazypang
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

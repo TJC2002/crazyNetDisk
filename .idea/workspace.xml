@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3d6587-125e-471e-93cd-46877c1c4ea6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system-api/pom.xml" afterDir="false" />
+    <list default="true" id="bd3d6587-125e-471e-93cd-46877c1c4ea6" name="Changes" comment="搭建mybatis框架">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system-api/src/test/java/top/crazypang/mapperTest/SystemUserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system-api/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system-api/src/main/java/top/crazypang/web/controller/SystemUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/src/main/java/top/crazypang/web/controller/SystemUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/system-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -32,7 +39,9 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2b2gyEf5fBXJSLG1DxVKSUGcLKD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -46,6 +55,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/development/javaProject/crazyNetdisk/system-api/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -55,7 +67,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\development\javaProject\crazyNetdisk\system-api\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemApplicationApi">
+    <configuration name="SystemUserMapperTest.selectSystemUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="system-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.crazypang.mapperTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.crazypang.mapperTest" />
+      <option name="MAIN_CLASS_NAME" value="top.crazypang.mapperTest.SystemUserMapperTest" />
+      <option name="METHOD_NAME" value="selectSystemUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SystemApplicationApi" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="system-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.crazypang.SystemApplicationApi" />
@@ -63,6 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SystemUserMapperTest.selectSystemUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,11 +110,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705418839759</updated>
-      <workItem from="1705418840900" duration="53000" />
+      <workItem from="1705418840900" duration="4221000" />
     </task>
+    <task id="LOCAL-00001" summary="搭建mybatis框架">
+      <option name="closed" value="true" />
+      <created>1705419203152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705419203152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搭建mybatis框架">
+      <option name="closed" value="true" />
+      <created>1705419831893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705419831893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="搭建mybatis框架">
+      <option name="closed" value="true" />
+      <created>1705419849144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705419849144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="搭建mybatis框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建mybatis框架" />
   </component>
 </project>
