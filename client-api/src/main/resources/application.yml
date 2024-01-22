@@ -1,7 +1,9 @@
 server:
-  port: 11300
+  port: 11500
 
 spring:
+  application:
+    name: client-api
   cloud:
     nacos:
       discovery:
@@ -14,17 +16,6 @@ spring:
   config:
     import:
       - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
-  mail:
-    host: smtp.163.com
-    port:
-    username: 15119859158@163.com
-    #邮箱授权码
-    password: OLLMOEPUCXOXPLJR
-    protocol: smtp
-    default-encoding: UTF-8
-
-  application:
-    name: email-api
   profiles:
     active: development
   datasource:
@@ -32,12 +23,9 @@ spring:
     url: jdbc:mysql://175.178.33.3:3306/crazyNetDisk?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false
     username: root
     password: 3236588wwwWWW!
-
-
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
 crazy:
   netDisk:
     config:
       sysAdmin-userId: crazypang
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml

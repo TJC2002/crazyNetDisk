@@ -1,4 +1,4 @@
-package top.crazypang.emailapi;
+package top.crazypang;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

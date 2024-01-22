@@ -12,6 +12,7 @@
   <url>http://www.crazypang.top</url>
   <modules>
     <module>system-api</module>
+    <module>netdisk-common</module>
   </modules>
   <description>crazy网盘</description>
 
